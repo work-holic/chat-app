@@ -1,0 +1,280 @@
+body{
+    background-color: beige;
+    /* background-image: linear-gradient(rgb(255, 255, 255), rgb(228, 231, 9)); */
+    /* height: 100vh; */
+    /* background-image: url('data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMTEhUTExIVFRUXFRUVFxUXFxUXFxgVFxUXFxgVFxcYHSggGBolHRUVITEhJSkrLi4uFx8zODMtNygtLisBCgoKDg0OFxAQFy0lHR0tLSstLSstLS0tLS0tLS0tLS0tLSstLS0tLS0tLS0rLS0tLS0tLS0tLS0tLS0tLSstLf/AABEIAKgBLAMBIgACEQEDEQH/xAAcAAACAwEBAQEAAAAAAAAAAAACAwABBAUGCAf/xAAxEAACAQMCBAUDBAIDAQAAAAAAAQIDESEEMRJBUWEFcYGR8KGxwSLR4fEGEzJCYhT/xAAZAQADAQEBAAAAAAAAAAAAAAAAAQIDBAb/xAAjEQEBAQEBAAICAgIDAAAAAAAAAQIRAyExQVEEEmFxIjJS/9oADAMBAAIRAxEAPwD8QZL+RRGAQlyEAIXf5/BTI1z+YAIS33JciQBPPp+CFv8AH3KuAFSqOMlJbpprzTuim7vPNlxtzXoUBpYuxaRaQjRL57hvOcXIkGogcgbBKAcYDY0ybVyFqIxQGwpjY0yLVzJUaYyNMfTpHR0nhM5creZnrcn22x5XX1HMjTNFHTN7Js9Pov8AHl/2yd7SeFxW0TDXv+nVj+L/AOq8dpPA6kt1Y7mj/wAbj/2yejhRSDUkYa9tV0Z8sZ+ox6XwqEdkjfToxXIpu3UqM28Ky82Y3TRoi0g+MRNlcQujjR/sKdQz8RLi6OHOoVxiXIHjDo40cZamZuMvjF0+NPEXxGdTL4xHx8+sjS6+5MW7lHonmBMqJVyAFkZEyAFuO2d/oUREA0La7lp9rlvzYBL9l9/qyItINREcilEOMS4xGRiK1cgYQGxgFGA6ECLWkyXGmPjTHUNO3sjsaPwdvMjLXpJ9t/Px1r6cmjp29lc62j8FlK18Hf0XhqWEjtafw+yvKyRz69rfp2Z/j5z/ANnF0Xg8Y8jt6fw/F8JdWPjUjH/ivV/sDdvd38zn1r9uif4+DYqEeXE/ZEq1pPayXTKExDuZ3Sv6rTZTkRiapPT4fGds9PWwc5mWLsRzEOHuZXGIdQH/AGAfGhzK4xHEXFhwHcRaYpMsDMuEmBENE2haYSREWLpvn+/UiJG3PbzKsekeVQtlF2ACUW7bZfbd/YFkRa+vz+ANSQS+ef4KsEIKSDSIkGogqRUYjYx+dS4wv8/AyMCbWkiowHQgXTgdDSaFvcz1qRtjzuvpmpUm3hHV0fhd8s6Gi0KVlY7uk8P647HNr1t+nd5+Gc/NYNH4elhI7ml8O6+xpoUktkMqSx8RhbPy37fwiqRhiKV18yxdSs3a5kUbbK3b+w1Iy1q1czIYmHxGeNXF+WfZFqf9EqP4gZ1LevqZ6s7Z5dfnIO+LCDTKW/z0ETmBVqiHUvyFIbTcGeBVOvmz+ZHz5CvwYUyfP6LKHKBpBIWohsQGmWgUHEQHFBoFMJE0xotFIJCD59L4s3eSr4LZ6V5VSQSX8lMuK6dHy9wCMhArCUpIN+5Eg4oSpEjEbGJIodCN3gm1pMqjE00aDY3T6Rs6+k0nJIx36c+nX5eHfmk6TRpHc0Whb7Ido9Gll5Z0o2Rza1+3bmc+haego7L1HyrKP7GGrquUfVi1IyulzLoLVvogJVW+d/MyqQaZnVyHxqef4KqVXydvyKnUBpVXwvN78798kmfVd0vKz97kU7bZdsdvmBHEaNOoy3bXflYVMtTaWN8lx+jyjZPRQtvxe6+xHpnyVyf7Q+MUmXYOURdigkYZfz4jQmKSGpCoEkXYqIaRPTRIJRIkQXQJRLsSKDQugKYcWUo5fTl19egVg6BRQaiDEYTQ+e7FtfLhRpt5+fNyNeT/AD/B6Z5UKLSIWkI0QUUSKDihLkWkMhEqMTTTovn9ibWuc234VSp3OjptKXptP2OvpdOc+9u3z8pn/aaTSex2NPSSFUojZVVH8L9zn1p1TLS5pL5kROo5eXT8iONt59A5SMq1kNcvnUtMVGVi72XT9hG0KdilU7mCvrLPhWZPl0XViNbroxj06tvkExaX9pHUhqenPyKVVSvw3aW7XXz2SPC1/GJ1ZqEU+G+y3aPZ1NfCtBU1BQjGKTt/Fsj9PK+fO/lHl7T07z8NfhtRVZzpx4k4NKV1i7V7X6nXp6O3O4rwilThBKCt837m1zOXW7b8N5Pj5FTprYYtmI/27GzT2km3sl8ZGjcyrExyeRlWtd4F2NYBRY2KuvTIlJ3NNPZ9X9lzFQqIyINip1LE/ZmMpEpq+4VgC4oOLKigooQSms3e3QYkUg0hBEgykQQfPYSROduXo36EseneVW13Lj09fnsUg4pfPm2wlSCxZY8++Q4lRjn5+eQ+nTIta4z2ipU7nR09LkKpQ5L3OlpqZhvTu88TMP01Kx0KaM9NGqiuZz6rozD4uxllUvnP9jdRUsrdb+xlUs4fbr5kNGqEvnzkRS/cVxdO2LfUNSX1v0ZKjk+b9DD4lruFYf6n9O4+c+556ouKUm3hO1/svoV55lvaj01yfDVQ1HDBu36pPfqv2OJ41qG7Lrv3sdRZWOlhUNJxvha9zoxZm9rm9c63n+scnw+lUjKFSKxdZXK+MnstHxXfElnfk32Ri0PhEYxwnfN8s7nh9FxisJr3Mf5HpNNf43jfOcdXw66V5b8l0XJG5ajk99znxqc36fuaKUG2u/NnBZPt2tel/U8DNXXVOLpp3b3fS5l1NZU2v9bakt83i/NGKUm3d7time/P4Ag7AINMqgyI1YEphOYjFORIoFIfCIvoCig0ii0SBItFIJABIJAIJCAggUy7gT58LJFBKWLZ75x7Hpnl4lhkQEMiKrkMpxNdOImmjbp4GO67fLHGnTwOhSjz9DNRia6asjn1XVmHR38vuaYSx2Rlht3eSVa+OFepnY0iVZybumuln/WBPG09pK3JW+f0VxfUbCYAVOq+XpfG1hkp3xb7+4FOV8DHHJFXIweKSmoq17O92cqmr4v+x6GauLpaRLl3NM+kkZ687q9cWnKS5P2Z0NOpYcf+VtpYOlTpO47/AOe7uydesqs+XPyR4VKcpSTWUjoaXUXbjZq3VYfkyQpRWVhtJN3ewy/0MNXtb5nErwqJpxlFrdxkmsdmtjbPVNrhV0rebfqZbhIiz9qMRaBQaEBJjIC+QUXZCoRyGwQiBpo5FTMihqBSLMzXxBJgpBNWTb2Su30XcCEmXcC5EwBqZaAQSYgK5dykEAfP6eLFoqIdz0zy8FjkNgvx/YqKNFNEarbznafRidCjEyUUbqSOfVd2Y1U0NqPHqhUCKacvIya9aJTEyTVrjeFbvkIrX3fMUPo453ta/wBS43XJNY5tPuxMWaYL0znz8hX4VPkxK+z9l1/Joi7254z5iVy9x8GZaaxODDa6j4pAJhXIqzbIviFxCiTw+mIOICDSEYojIoFbBommNF3BLj3EDYg1exTV0XJYuI0pSvJR59BunqXRg0dRyqp9M+xuSTbksXfFbu0r29R6hdaVUCUxMQ4kcM2MhsZGeIxMmwH4YEoWKiw7iAUwog2LQwYjTpqUZK9+bMkQkibA/AUgkCg0emrzEMgjTTQimjTSRnp1eUa6KNdMy0jRA566o0phqK9RMGPiRVw1QJOlfHy4UXYaR1fHPjDvazuPjLZdgaiSbSv83LpMKqNENhsWKCRFaRoiwxEUOgRYrpiQaFWGIkzYoODQqLDJqjA4oU2NpsVhjthlueCcmUo4sSDYJPITE0X6WDjMmmxaDE3fZtxfa+DpUlbD3MypWm5LnuvuaUytXpSCuMQqwxE0GRCTAQSJMxBIBDIiCyU5XZGxVJMAc45C4gLv+Rl2Kh+BIJAoOJ6V5mHRNNNGaBppGWnX5tVMfAzUmaIsxraHwV8Gqi+q+/2MlJ9/rz/Y20He6ttzM9NcnxQbmkn2QKV7A6uVlbq7GTVmivsDQll35BJ29g1Z5tf73KBnHkNPGDJFBtWzcXDlbqc1sPsYqedxzdiLFytMQ0JiwuOxC+tEUNjERTncfBkVUVLDt2uXNdAq0U1du1mrPze3qHVj5C6AQncYncW4Nfq3X17B0tsipxb7Epu+wrWyajjmzLpNSnVhDitFySbfQcz2dK3jsQpO22xI4RrcKkdVCNOzo2k6jw1t+lJ9ROuinJpbO9vIymuqC4v/AFuaWWnwLq+/REoTUoRmud1Z8mnZr3TK0zkoqEnxRW3VLpcbwpbJJdErIKFxGRQKCTEBRQcd78tvXqDFE4hAVSVkzNPUJZJrqySv3OPXqcUrJ+n5LxnpW8d2hWubFURyvDNK7q7wle/I6i/8tNejM986cfgIcCEPSvM5Opmml/RCGVdefpopjYy+/wDXz9yEMmq3O7sbNLUaeCEI21w1LU25d/4KrV7pK1s7kIZca9Cl2+Z/cYkWQVVCZpphxljsyEH+C/JlIe1chCauDg8DFnBCEVUXQeDXCRRCNKy003yFzz6W2wyEIWaua6u4USEIMcopqzMj8NhcogS2fQsldGlNxVk8BxLITTGgiyEGpFohBkO5JT9+RRAJg8Vg5JNcss4nG41W2nwtfUsh0eX6Z7/b0fhPiCh+mSTTVhNX/HKU5SmpVI8TvwwfDFYS264KIc+rca/43nWlk1PmP//Z'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    backface-visibility: visible;
+    background-size: 1275x;
+    font-size: 16px;
+    margin: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+    overflow: hidden;
+    position: sticky;
+}
+
+ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.chat-container{
+    max-width: 1100px;
+    /* max-height: 600px;   */
+    margin: 20px auto;
+    /* border: 2px solid black; */
+    border-radius: 8px;
+    /* overflow: hidden; */
+    /* background-color: white; */
+}
+
+.chat-header{
+    display: flex;
+    padding: 0 10px;
+    position: sticky;
+    background: #667aff;
+    color: white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    align-items: center;
+    justify-content: space-between;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.chat-header h1{
+    font-family: monospace;
+}
+
+.chat-header #img-header{
+    display: inline;
+    height: 35px; width: 35px;
+}
+
+.chat-header p{
+    display: inline;
+}
+
+.chat-main{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.chat-sidebar{
+    background: #7386ff;
+    color: #fff;
+    padding: 2px 20px 60px;
+    overflow-y: scroll;
+    position: sticky;
+}
+
+.chat-sidebar h2{
+    font-size: 20px;
+    background: (rgba(0,0,0,0.1));
+    background-color: #667aff;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.chat-sidebar h3{
+    margin-bottom: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* font-weight: bold; */
+}
+
+.chat-sidebar ul li{
+    padding: 4px 0;    
+}
+
+.chat-messages{
+    padding: 30px;
+    height: 350px;
+    max-height: 400px;
+    /* overflow: scroll; */
+    overflow-y: scroll;
+    background-image: none;
+    background-size: cover;
+    background-color: white;
+    position: relative;
+}
+
+.chat-messages .message{
+    margin-bottom: 15px;
+    background-color: rgb(230, 236, 240);
+    border-radius: 5px;
+    width: fit-content;
+    height: fit-content;
+}
+
+.chat-messages .message p{
+    padding-left: 6px;
+    padding-right: 20px;
+}
+
+.chat-messages .message .meta{
+    font-size: 15px;
+    font-weight: bold;
+    color: darkblue;
+    opacity: 0.7;
+    padding-right: 8px;
+}
+
+.chat-messages .message span{
+    color: #777;
+    float: right;
+    padding-left: 10px;
+}
+
+.chat-form-container{
+    padding: 20px 30px;
+    background-color: #667aff;
+    position: sticky;
+    overflow: hidden;
+}
+
+.chat-form-container form{
+    display: flex;
+}
+
+.chat-form-container input[type='text']{
+    font-size: 16px;
+    padding: 6px;
+    height: 30px;
+    border: 0;
+    border-radius: 4px;
+    width: 90%;
+    flex: 90%;
+}
+
+.chat-form-container .send-btn{
+    background: #e6e9ff;
+    color: #667aff;
+    width: 8%;
+    border: 0;
+    border-radius: 4px;
+    margin-left: 10px;
+    flex: 10%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.chat-form-container .send-btn p{
+    display: inline;
+}
+
+.chat-header .leave-btn{
+    background: #e6e9ff;
+    color: #667aff;
+    padding: 5px 15px;
+    border-radius: 2px;
+    font-weight: bold;
+}
+
+.chat-messages .message.left{
+    float:  left;
+    clear: both;
+}
+
+.chat-messages .message.right{
+    float: right;
+    clear: both;
+}
+
+.chat-messages .message.center{
+    display: block;
+    margin: auto;
+    clear: both;
+}
+
+
+@media (min-width: 410px) and (max-width: 700px){
+    .chat-main{
+        display: block;
+    }
+
+    .chat-sidebar{
+        display: none;
+    }
+
+    .chat-form-container .send-btn i{
+        display: inline;
+    }
+
+    .chat-form-container .send-btn p{
+        display: none;
+    }
+}
+
+@media (min-width: 700px) and (max-width: 886px){
+    .chat-form-container .send-btn{
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 410px){
+    .chat-header h1 p{
+        font-size: 17px;
+    }
+
+    .chat-header .leave-btn{
+        font-size: 12px;
+        padding: 2px 6px;
+    }
+
+    .chat-messages{
+        font-size: 12px;
+    }
+
+    .chat-header #img-header{
+        display: none;
+    }
+    .chat-sidebar{
+        display: none;
+    }
+    .chat-main{
+        display: block;
+    }
+
+    .chat-form-container .send-btn i{
+        display: block;
+        width: fit-content;
+    }
+
+    .chat-form-container .send-btn{
+        flex: 0.5;
+    }
+
+    .chat-form-container #msg{
+        flex: 3;
+    }
+
+    .chat-form-container .send-btn p{
+        display: none;
+    }
+}
+
+
+@media (min-width: 410px) and (max-width: 680px){
+    .chat-header h1{
+        font-size: 18px;
+    }
+
+    .chat-header #img-header{
+        width: 25px;
+        height: 25px;
+    }
+
+    .chat-header .leave-btn{
+        font-size: 14px;
+        padding: 4px 8px;
+    }
+}

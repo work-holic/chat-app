@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Chat APP</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' href='CSS/index.css'>
+</head>
+<body>
+    <div class="login-container">
+        <header class="login-header">
+            <h1>GalaxyCord</h1>
+        </header>
+        <main class="login-main">
+            <form action="chat.html" id="login-form">
+                <div class="form-control">
+                    <label for="username">Username</label>
+                    <input type="text" name="username" id="username-input" placeholder="Enter username" required>
+                </div>
+                <div class="form-control">
+                    <label for="room">Choose your room</label>
+                    <select name="room" id="room">
+                        <option value="Room1">Room1</option>
+                        <option value="Room2">Room2</option>
+                        <option value="Room3">Room3</option>
+                        <option value="Room4">Room4</option>
+                        <option value="Room5">Room5</option>
+                        <option value="Room6">Room6</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn">Join Chat</button>
+            </form>
+        </main>
+    </div>
+
+    <script src="js/client.js"></script>
+</body>
+</html>

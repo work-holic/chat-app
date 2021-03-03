@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>Chat App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous" />
+    <link rel='stylesheet' type='text/css' href='CSS/chat.css'>
+</head>
+<body>
+    <div class="chat-container">
+        <header class="chat-header">
+            <h1 > <img src="/logo.png" id="img-header" ><p> GalaxyCord</p></h1>
+            <a href="#" type="button" class="leave-btn" >Leave Room</a>
+        </header>
+        <main class="chat-main">
+            <div class="chat-sidebar">
+                <h3 id="room"><i class="fas fa-comments"></i> Room Name</h3>
+                <h2 id="room-name"></h2>
+                <h3><i class="fas fa-users"></i> Users</h3>
+                <ul id="users"></ul>
+            </div>
+            <div class="chat-messages">
+            </div>
+        </main>
+        <div class="chat-form-container">
+            <form id="chat-form">
+                <input 
+                id="msg" 
+                type="text"
+                placeholder="Enter Message"
+                required
+                autocomplete="off"
+                />
+                <button class="send-btn"><i class="fas fa-paper-plane"></i><p> Send</p></button>
+            </form>
+        </div>
+    </div>
+    
+    <audio src="./ting.wav" id="audio"></audio>
+    <!-- <script src="/qs.js"></script> -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.33/moment-timezone.min.js" integrity="sha512-jkvef+BAlqJubZdUhcyvaE84uD9XOoLR3e5GGX7YW7y8ywt0rwcGmTQHoxSMRzrJA3+Jh2T8Uy6f8TLU3WQhpQ==" crossorigin="anonymous"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js" integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qs/6.9.6/qs.min.js" integrity="sha512-3TmPrquYLaAsUmZKXRARTDC5siWhLAdBVqNo4dWpDABBtLU62AaoTaQJEvjxjExcZYurO6i1dnK85k8pPIBlRg==" crossorigin="anonymous"></script>
+    <script  src="/socket.io/socket.io.js"></script>
+    <script  src="js/client.js"></script>
+
+</body>
+</html>
